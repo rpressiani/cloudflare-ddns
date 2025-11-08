@@ -1,0 +1,42 @@
+# Git files
+.git
+.gitignore
+
+# Documentation
+README.md
+CHANGELOG.md
+LICENSE
+
+# Build artifacts
+cf-ddns
+cf-ddns-*
+*.exe
+
+# Environment files
+.env
+.env.local
+*.env
+
+# IDE files
+.vscode
+.idea
+*.swp
+
+# Logs
+*.log
+
+# Docker files (no need to copy these into the image)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Scripts
+install.sh
+scripts/
+
+# Test files
+*_test.go
+
+# OS files
+.DS_Store
+Thumbs.db
